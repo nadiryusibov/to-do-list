@@ -16,10 +16,12 @@ body {
 .container {
   width: 400px;
   height: 400px;
-  margin: 50px auto; }
+  margin: 50px auto;
+  user-select: none; }
   .container h1 {
     margin-bottom: 20px;
-    text-shadow: 4px 4px 2px #969696; }
+    text-shadow: 4px 4px 2px #969696;
+    text-align: center; }
   .container input {
     width: 300px;
     height: 45px;
@@ -27,7 +29,8 @@ body {
     border: 1px solid gray;
     font-size: 25px;
     padding-left: 10px;
-    vertical-align: middle; }
+    vertical-align: middle;
+    margin-left: 25px; }
   .container button {
     width: 45px;
     height: 45px;
@@ -42,4 +45,5 @@ body {
   margin: 0;
   cursor: pointer;
   font-size: 20px;
-  letter-spacing: 3px; }
+  letter-spacing: 3px;
+  margin-left: 25px; }
